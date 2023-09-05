@@ -1,0 +1,109 @@
+ 
+<html>
+  <head>  
+    <title>Hand Gestureeee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+      <h1 class="porpor">
+Gang Signs
+        <br>
+        <span>
+         ✌️ 
+
+        </span>
+        <span>
+          👌
+        </span>
+        <span>
+          👍
+
+        </span>
+        <span>
+          👋
+        </span>
+        
+      </h1>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Take your hand gesture pic to generate a gang sign
+      	<br>
+        
+       
+        <b style="color: rgb(0, 0, 0)">the Model is trained with only and only the following.✌️👌👍 </b>
+      </p> 
+<br>
+<div>
+  <h2>
+    Webcam
+  </h2>
+  <div id= "camera">
+    
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+<button class="btn btn-danger" onclick="takepic()">
+take le pica
+</button>
+</div>
+<br>
+<h1 id="emo1">
+
+
+</h1>
+<h2 id="emoji1">
+
+</h2>
+<br>
+<br>
+<h1 id="emo2">
+
+</h1>
+<h2 id="emoji2">
+
+</h2>
+<br>
+<br>
+
+
+
+
+
+      <div>
+	      <h2>Snapshot - </h2>
+
+        <br><br>
+
+      </div>
+<div id="result">
+
+</div>
+<br>
+<button onclick="check()" class= "btn btn-warning" >
+gang to signs
+</button>
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>   
+
+          
